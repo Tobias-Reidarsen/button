@@ -1,13 +1,13 @@
-<!-- <script setup>
+<script setup>
 import { ref } from "vue";
 
 const count = ref(0);
 
 const inc = () => count.value++;
 const dec = () => count.value--;
-</script> -->
+</script>
 
-<script>
+<!-- <script> //Options version
 export default {
 	data() {
 		return {
@@ -25,7 +25,7 @@ export default {
 		},
 	},
 };
-</script>
+</script> -->
 
 <template>
 	<main>
