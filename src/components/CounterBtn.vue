@@ -30,7 +30,7 @@ export default {
 <template>
 	<main>
 		<div>
-			<h4>The current count is</h4>
+			<h4>The current count is:</h4>
 			<h1>{{ count }}</h1>
 			<button @click="dec">-</button>
 			<button @click="inc">+</button>
